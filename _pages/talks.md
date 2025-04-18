@@ -16,39 +16,20 @@ author_profile: false
 - A General Framework for Hydrological Modeling: From RNN to Transformer. AGU Fall Meeting (Dec 2024)
 - Can Attention Models Surpass LSTM in Hydrology? EGU Conference (April 2024)
 
-![2024_AGU_foundation](../images/talks/presentation_2024_AGU.png "Foundation Model for Understanding Landscape Hydrologic Coevolution"){: height="120px" }
+<img src="../images/talks/presentation_2024_AGU.png" alt="Foundation Model for Understanding Landscape Hydrologic Coevolution" height="300"/> 
 
 ### 2023
 - Exploring Transformer Architecture in Predictive Hydrologic Modeling. AGU Fall Meeting (Dec 2023)
 - Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management. IBM Research (Aug 2023)
 - A Multiscale Deep Learning Model Integrating Satellite‑Based and In‑Situ Data for High‑Resolution Soil Moisture Predictions. EGU Conference (April 2023)
 
-<div class="img-row">
-  <img src="../images/talks/presentation_2023_IBM1.png"
-       alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model"
-       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management"
-       height="120" />
-  <img src="../images/talks/presentation_2023_IBM2.png"
-       alt="PatchTST in Agri Risk Management"
-       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management"
-       height="120" />
-</div>
-
+<img src="../images/talks/presentation_2023_IBM1.png" alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model" height="300"/> <img src="../images/talks/presentation_2023_IBM2.png" alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model" height="300"/> 
 
 ### 2022
 - The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction. Google Geo for Good Summit (Oct 2022)
 - A Global Soil Moisture Dataset Based on a Multi‑Scale Deep Learning Framework. HydroML Symposium (May 2022)
 
-<div class="img-row">
-  <img src="../images/talks/presentation_2022_google1.png"
-       alt="Google Geo for Good Summit"
-       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" 
-       height="120" />
-  <img src="../images/talks/presentation_2022_google2.png"
-       alt="Google Geo for Good Summit"
-       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction"
-       height="120" />
-</div>
+<img src="../images/talks/presentation_2022_google1.png" alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" height="300"/> <img src="../images/talks/presentation_2022_google2.png" alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" height="300"/> 
 
 ### 2020
 - Automated Deep‑Learning‑Based Soil Moisture Planning and Forecast System for Planning Against Natural Disasters. AGU Fall Meeting (Dec 2020)
