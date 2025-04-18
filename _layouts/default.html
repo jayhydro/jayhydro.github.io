@@ -9,10 +9,11 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- Include custom CSS for map toggling -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
@@ -26,6 +27,7 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
+    <!-- Include apps.js for interactive map toggling -->
+    <script src="{{ '/assets/js/apps.js' | relative_url }}"></script>
   </body>
 </html>

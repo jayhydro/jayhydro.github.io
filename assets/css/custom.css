@@ -1,0 +1,85 @@
+/* custom.css */
+
+/* Layout wrapper: place sidebar and content side by side */
+.page-wrapper {
+  display: flex;          /* use flexbox */
+  min-height: 800px;      /* ensure enough height */
+}
+
+/* Sidebar styling */
+.page-sidebar {
+  width: 250px;           /* fixed width */
+  flex-shrink: 0;         /* do not shrink when space is tight */
+  padding-right: 20px;    /* add some space between sidebar and content */
+}
+
+/* Style for sidebar navigation */
+.nav__list {
+  margin-bottom: 20px;
+}
+
+.nav__list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav__list li {
+  margin-bottom: 8px;
+}
+
+.nav__list a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav__list a:hover {
+  background-color: #e9ecef;
+}
+
+.nav__list a.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Main content styling */
+.page-content {
+  flex-grow: 1;           /* take remaining width */
+  margin-left: 20px;      /* gap between sidebar and content */
+}
+
+/* Ensure map container fills its parent */
+.map-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Hide inactive maps */
+.map-item {
+  display: none;
+}
+
+/* Show only active map */
+.map-item.active {
+  display: block;
+}
+
+/* Responsive: stack sidebar above content on small screens */
+@media (max-width: 768px) {
+  .page-wrapper {
+    flex-direction: column;
+  }
+  .page-sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+  .page-content {
+    margin-left: 0;
+  }
+}
+
+
