@@ -44,8 +44,8 @@
 
 /* Custom thumbnail styling for the Talks page */
 .talk-thumb {
-  width: auto;
-  height: 120px;
+  width: 120px;
+  height: auto;
   margin-right: 1em;
   float: left;
 }
@@ -58,6 +58,6 @@
 
 /* Ensure images inside .img-row are uniformly sized */
 .img-row img {
-  width: auto;
-  height: 120px;
+  width: 120px;
+  height: auto;
 }

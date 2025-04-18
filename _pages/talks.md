@@ -16,7 +16,7 @@ author_profile: false
 - A General Framework for Hydrological Modeling: From RNN to Transformer. AGU Fall Meeting (Dec 2024)
 - Can Attention Models Surpass LSTM in Hydrology? EGU Conference (April 2024)
 
-![2024_AGU_foundation](../images/talks/presentation_2024_AGU.png "Foundation Model for Understanding Landscape Hydrologic Coevolution"){: width="120px" }
+![2024_AGU_foundation](../images/talks/presentation_2024_AGU.png "Foundation Model for Understanding Landscape Hydrologic Coevolution"){: height="120px" }
 
 ### 2023
 - Exploring Transformer Architecture in Predictive Hydrologic Modeling. AGU Fall Meeting (Dec 2023)
@@ -26,10 +26,12 @@ author_profile: false
 <div class="img-row">
   <img src="../images/talks/presentation_2023_IBM1.png"
        alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model"
-       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management" />
+       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management"
+       height="120" />
   <img src="../images/talks/presentation_2023_IBM2.png"
        alt="PatchTST in Agri Risk Management"
-       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management" />
+       title="Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management"
+       height="120" />
 </div>
 
 
@@ -40,10 +42,12 @@ author_profile: false
 <div class="img-row">
   <img src="../images/talks/presentation_2022_google1.png"
        alt="Google Geo for Good Summit"
-       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" />
+       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" 
+       height="120" />
   <img src="../images/talks/presentation_2022_google2.png"
        alt="Google Geo for Good Summit"
-       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" />
+       title="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction"
+       height="120" />
 </div>
 
 ### 2020
