@@ -23,7 +23,18 @@ author_profile: false
 - Enhancing Soil Moisture Forecasting Using the PatchTST Model for Agricultural Risk Management. IBM Research (Aug 2023)
 - A Multiscale Deep Learning Model Integrating Satellite‑Based and In‑Situ Data for High‑Resolution Soil Moisture Predictions. EGU Conference (April 2023)
 
-<img src="../images/talks/presentation_2023_IBM1.png" alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model" height="300"/> <img src="../images/talks/presentation_2023_IBM2.png" alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model" height="300"/> 
+<div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+  <img
+    src="../images/talks/presentation_2023_IBM1.png"
+    alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model"
+    style="height: 200px; width: auto; object-fit: contain;"
+  />
+  <img
+    src="../images/talks/presentation_2023_IBM2.png"
+    alt="Enhancing Soil Moisture Forecasting Using the PatchTST Model"
+    style="height: 200px; width: auto; object-fit: contain;"
+  />
+</div>
 
 ### 2022
 - The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction. Google Geo for Good Summit (Oct 2022)

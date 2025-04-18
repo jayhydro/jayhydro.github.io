@@ -42,22 +42,3 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Custom thumbnail styling for the Talks page */
-.talk-thumb {
-  width: 120px;
-  height: auto;
-  margin-right: 1em;
-  float: left;
-}
-
-/* Container for displaying multiple images side by side */
-.img-row {
-  display: flex;
-  gap: 1em;
-}
-
-/* Ensure images inside .img-row are uniformly sized */
-.img-row img {
-  width: 120px;
-  height: auto;
-}
