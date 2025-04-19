@@ -9,7 +9,7 @@ on:
   # or triggered by push to main branch
   push:
     branches:
-      - main
+      - master
     paths:
       - "scripts/**"
       - "_data/**"
