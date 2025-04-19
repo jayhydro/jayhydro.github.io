@@ -1,29 +1,27 @@
-# scripts/update_citations.py
-
+#!/usr/bin/env python3
 import yaml
 from scholarly import scholarly, ProxyGenerator
 
-# (Optional) Set up a free proxy to reduce chance of IP blocking
+# Attempt to set up a free proxy; continue even if it fails
 pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.use_proxy(pg)
+try:
+    pg.FreeProxies()
+    scholarly.use_proxy(pg)
+    print("✅ Proxy enabled")
+except Exception as e:
+    print(f"⚠️ Proxy setup failed: {e}; continuing without proxy")
 
 # Your Google Scholar user ID
 AUTHOR_ID = "raNrs0gAAAAJ"
 
-# Search by ID and fill author profile
-print("▶️  Starting Scholar fetch...")
+print("▶️ Starting Scholar fetch...")
 author = scholarly.search_author_id(AUTHOR_ID)
-print("✔️  Author object retrieved, filling details...")
+print("✔️ Author object retrieved; filling details...")
 author_filled = scholarly.fill(author)
-print("✔️  Details filled, extracting citations...")
-
-
-# Extract total citation count (key "citedby")
+print("✔️ Details filled; extracting citation count...")
 total_citations = author_filled.get("citedby", 0)
 
-# Write the count into Jekyll’s data folder
+# Write the citation count to Jekyll’s data folder
 with open("_data/citations.yml", "w", encoding="utf-8") as f:
     yaml.dump({"total_citations": total_citations}, f)
-
-print(f"Total citations updated: {total_citations}")
+print(f"✔️ Citation count written: {total_citations}")
