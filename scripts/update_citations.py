@@ -3,17 +3,21 @@
 import yaml
 from scholarly import scholarly, ProxyGenerator
 
-# # (Optional) Set up a free proxy to reduce chance of IP blocking
-# pg = ProxyGenerator()
-# pg.FreeProxies()
-# scholarly.use_proxy(pg)
+# (Optional) Set up a free proxy to reduce chance of IP blocking
+pg = ProxyGenerator()
+pg.FreeProxies()
+scholarly.use_proxy(pg)
 
 # Your Google Scholar user ID
 AUTHOR_ID = "raNrs0gAAAAJ"
 
 # Search by ID and fill author profile
+print("▶️  Starting Scholar fetch...")
 author = scholarly.search_author_id(AUTHOR_ID)
+print("✔️  Author object retrieved, filling details...")
 author_filled = scholarly.fill(author)
+print("✔️  Details filled, extracting citations...")
+
 
 # Extract total citation count (key "citedby")
 total_citations = author_filled.get("citedby", 0)
