@@ -1,0 +1,46 @@
+# .github/workflows/update-citations.yml
+
+name: Update Google Scholar Citations
+
+on:
+  # Run at 00:00 UTC every 2 days (every day: '0 0 * * *')
+  schedule:
+    - cron: '0 0 */2 * *'
+  # or triggered by push to main branch
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - "_data/**"
+
+jobs:
+  fetch-citations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch and update citations
+        run: python scripts/update_citations.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/citations.yml
+          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update Google Scholar citations"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
