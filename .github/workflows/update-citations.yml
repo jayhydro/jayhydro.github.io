@@ -1,13 +1,13 @@
-# .github/workflows/update-citations.yml
-
 name: Update Google Scholar Citations
 
+# Grant write permission so we can push back to the repo
+permissions:
+  contents: write
+
 on:
-  # Run at 00:00 UTC every 5 days (every day: '0 0 * * *')
-  workflow_dispatch: {}
+  workflow_dispatch: {}      # manual trigger
   schedule:
-    - cron: '0 0 */5 * *'
-  # or triggered by push to main branch
+    - cron: '0 0 */3 * *'    # every 3 days at 00:00 UTC
   push:
     branches:
       - master
@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -34,14 +34,22 @@ jobs:
           pip install -r scripts/requirements.txt
 
       - name: Fetch and update citations
-        run: python scripts/update_citations.py
+        run: |
+          # enforce a max of 60s for the entire script
+          timeout 60s python scripts/update_citations.py \
+            || echo "⏱️ Citation fetch timed out or failed; skipping update"
 
       - name: Commit updated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/citations.yml
-          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update Google Scholar citations"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          if git diff --cached --quiet; then
+            echo "No citation changes to commit; skipping push."
+          else
+            git commit -m "chore: update Google Scholar citations"
+            git push origin HEAD:master
+          fi
