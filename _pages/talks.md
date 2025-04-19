@@ -16,7 +16,13 @@ author_profile: false
 - A General Framework for Hydrological Modeling: From RNN to Transformer. AGU Fall Meeting (Dec 2024)
 - Can Attention Models Surpass LSTM in Hydrology? EGU Conference (April 2024)
 
-<img src="../images/talks/presentation_2024_AGU.png" alt="Foundation Model for Understanding Landscape Hydrologic Coevolution" height="300"/> 
+<div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+  <img
+    src="../images/talks/presentation_2024_AGU.png"
+    alt="Foundation Model for Understanding Landscape Hydrologic Coevolution"
+    style="height: 200px; width: auto; object-fit: contain;"
+  />
+</div>
 
 ### 2023
 - Exploring Transformer Architecture in Predictive Hydrologic Modeling. AGU Fall Meeting (Dec 2023)
@@ -40,7 +46,18 @@ author_profile: false
 - The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction. Google Geo for Good Summit (Oct 2022)
 - A Global Soil Moisture Dataset Based on a Multi‑Scale Deep Learning Framework. HydroML Symposium (May 2022)
 
-<img src="../images/talks/presentation_2022_google1.png" alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" height="300"/> <img src="../images/talks/presentation_2022_google2.png" alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction" height="300"/> 
+<div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+  <img
+    src="../images/talks/presentation_2022_google1.png"
+    alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction"
+    style="height: 200px; width: auto; object-fit: contain;"
+  />
+  <img
+    src="../images/talks/presentation_2022_google2.png"
+    alt="The Machine Learning Strategy for Rainfall‑Induced Landslide Susceptibility Prediction"
+    style="height: 200px; width: auto; object-fit: contain;"
+  />
+</div>
 
 ### 2020
 - Automated Deep‑Learning‑Based Soil Moisture Planning and Forecast System for Planning Against Natural Disasters. AGU Fall Meeting (Dec 2020)
