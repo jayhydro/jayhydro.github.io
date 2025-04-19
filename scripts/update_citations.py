@@ -3,10 +3,10 @@
 import yaml
 from scholarly import scholarly, ProxyGenerator
 
-# (Optional) Set up a free proxy to reduce chance of IP blocking
-pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.use_proxy(pg)
+# # (Optional) Set up a free proxy to reduce chance of IP blocking
+# pg = ProxyGenerator()
+# pg.FreeProxies()
+# scholarly.use_proxy(pg)
 
 # Your Google Scholar user ID
 AUTHOR_ID = "raNrs0gAAAAJ"
