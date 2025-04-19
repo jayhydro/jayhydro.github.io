@@ -16,6 +16,14 @@ sidebar:
     </iframe>
   </div>
 
+  <div id="streamflow-simulation" class="map-item">
+      <h2>Streamflow Simulation</h2>
+      <iframe 
+        src="https://huc06-prediction-e00dcd24c887.herokuapp.com/" 
+        width="100%" height="600" frameborder="0">
+      </iframe>
+  </div>
+
   <div id="soil-moisture" class="map-item">
     <h2>Soil Moisture Forecasting</h2>
     <iframe 

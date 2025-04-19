@@ -44,3 +44,5 @@ maps:
     url: "#attention-models"
   - title: "Soil Moisture Forecasting"
     url: "#soil-moisture"
+  - title: "Streamflow Simulation"
+    url: "#streamflow-simulation"
