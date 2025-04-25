@@ -14,7 +14,7 @@ I am interested in utilizing multiple satellite datasets (e.g., SMAP, MODIS), in
 - **Liu, J.;** Rahmani, F.; Lawson, K.; Shen, C. A Multiscale Deep Learning Model for Soil Moisture Integrating Satellite and in Situ Data. Geophys. Res. Lett. 2022, 49 (7), e2021GL096847. [paper](https://doi.org/10.1029/2021GL096847)
 
 ## 🏆 News
-- My first-author and corresponding-author manuscript, titled 'From RNNs to Transformers: benchmarking deep learning architectures for hydrologic prediction', is now available as a preprint at [HESS](https://doi.org/10.5194/egusphere-2025-1706)
+- [April 2025] My first-author and corresponding-author manuscript, titled 'From RNNs to Transformers: benchmarking deep learning architectures for hydrologic prediction', is now available as a preprint at [HESS](https://doi.org/10.5194/egusphere-2025-1706)
 - 🥇 [Top Downloaded: Jiangtao Liu’s GRL paper (2022)](https://doi.org/10.1029/2021GL096847)
 
 <img src="../images/awards/2022_most_download_paper_multiscale_soil_moisture.png" alt="Top Downloaded Certificate" width="400">
