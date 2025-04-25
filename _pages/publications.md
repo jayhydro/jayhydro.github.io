@@ -29,7 +29,7 @@ All papers are available upon request
 
 ## Preprints
 1. **Liu, J.**; Shen, C.; Xu, C.; McDill, M.; Bian, Y. Global Ecosystem Anomalies and Trajectories Captured by Foundation AI. **2025** (submitted)  
-2. **Liu, J.**; Shen, C.; O’Donncha, F.; Song, Y.; Zhi, W.; Beck, H.; Bindas, T.; Kraabel, N.; Lawson, K. From RNN to Transformer: a Comprehensive Evaluation of Time‑Series Deep Learning Models. *Hydrol. Earth Syst. Sci.* **2025** (submitted)  
+2. **Liu, J.**; Shen, C.; O’Donncha, F.; Song, Y.; Zhi, W.; Beck, H.; Bindas, T.; Kraabel, N.; Lawson, K. From RNN to Transformer: a Comprehensive Evaluation of Time‑Series Deep Learning Models. *Hydrol. Earth Syst. Sci.* **2025** (under review)  
 3. **Liu, J.**; Shen, C.; Pei, T.; Kifer, D.; Lawson, K. The value of terrain pattern, high-resolution data and ensemble modeling for landslide susceptibility prediction. *J. Geophys. Res.: Machine Learning and Computation* **2024** (under review)
 4. Ji, H.; Song, Y.; Bindas, T.; Shen, C.; Yang, Y.; Pan, M.; **Liu, J.**; Rahmani, F.; Abbas, A.; Beck, H.; Wada, Y.; Lawson, K. Distinct Hydrologic Response Patterns and Trends Worldwide Revealed by Physics‑Embedded Learning. *Nat. Commun.* **2025** (under review)
 5. Jamaat, A.; Song, Y.; Rahmani, F.; **Liu, J.**; Lawson, K.; Shen, C. Update hydrological states or meteorological forcings? Comparing data assimilation methods for differentiable hydrologic models. *arXiv preprint* arXiv:2502.16444. **2025** (under review)  
