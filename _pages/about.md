@@ -17,7 +17,7 @@ I am interested in utilizing multiple satellite datasets (e.g., SMAP, MODIS), in
 - [May 2025] Invited to serve as a Student Cluster Competition Reviewer ([SCC & IndySCC](https://sc25.supercomputing.org)) for SC25 – The International Conference for High Performance Computing, Networking, Storage, and Analysis.
 - [May 2025] Joined the [ESS Open Archive](https://essopenarchive.org/inst/20904?current_inst_tab=members) editorial team as a moderator.
 - [April 2025] My first-author and corresponding-author manuscript, titled 'From RNNs to Transformers: benchmarking deep learning architectures for hydrologic prediction', is now available as a preprint at [HESS](https://doi.org/10.5194/egusphere-2025-1706)
-- 🥇 [Top Downloaded: Jiangtao Liu’s GRL paper (2022)](https://doi.org/10.1029/2021GL096847)
+- 🥇 Top Downloaded: Jiangtao Liu’s [GRL paper](https://doi.org/10.1029/2021GL096847) (2022)
 
 <img src="../images/awards/2022_most_download_paper_multiscale_soil_moisture.png" alt="Top Downloaded Certificate" width="400">
 
