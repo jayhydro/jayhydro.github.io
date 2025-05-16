@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Code & Data Sets"
+permalink: /data_code/
+author_profile: false
+---
+
 <!-- ====== MODELS / CODE ====== -->
 ## Code & Models
 
