@@ -46,3 +46,5 @@ maps:
     url: "#soil-moisture"
   - title: "Streamflow Simulation"
     url: "#streamflow-simulation"
+  - title: "High Resolution Hydrological Prediction"
+    url: "#high-resolution-streamflow"
