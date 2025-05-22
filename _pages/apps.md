@@ -39,22 +39,5 @@ sidebar:
       width="100%" height="600" frameborder="0">
     </iframe>
   </div>
-  <!-- Citation -->
-  <div class="citation" style="
-      margin-top: 40px; 
-      padding: 20px; 
-      background-color: #f8f9fa; 
-      border-top: 2px solid #6c757d;
-      text-align: center; 
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      color: #333;">
-    <h3 style="margin-bottom: 10px;">Citation</h3>
-    <p>Paper:<br>
-      Song, Y. (2025). 
-      <i>CHigh-Resolution National-Scale Water Modeling Is Enhanced by Multiscale Differentiable Physics-Informed Machine Learning
-Yalan Song</i>.
-    </p>
-  </div>
 
 </div>
