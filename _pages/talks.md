@@ -9,6 +9,7 @@ author_profile: false
 ## Presentations
 
 ### 2025
+- Building LSTM and Transformer Models for Hydrologic Prediction. DL4Water Online Workshop (October 2025, Tutorial)
 - A Generative AI Approach to Assess Ecosystem Risks and Restoration Potential. Accelerating Computing for Emerging Sciences (ACES) Workshop (July 2025)
 - Advancing Hydrological Predictions at National Scales with Deep Learning. Tethys Summit (July 2025)
 - A Foundation Model for Understanding Landscape-Ecosystem Coevolution. Lawrence Berkeley National Laboratory (June 2025, Poster)
