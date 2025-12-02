@@ -7,13 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in utilizing multiple satellite datasets (e.g., SMAP, MODIS), in-situ observations, and reanalysis products (e.g., ERA5) to investigate how climate variability and human activities affect water resources. My research focuses on developing BERT/GPT-based foundation models that can be fine-tuned for tasks such as streamflow forecasting, soil moisture prediction, and water quality assessment. Additionally, I apply hybrid models that integrate physics-based hydrological approaches with deep learning techniques, ensuring predictions remain both accurate and physically interpretable. Ultimately, my goal is to provide robust, scalable, and transparent modeling frameworks to support decision-making from local watersheds to global scales. My expertise also includes zero-shot forecasting, cross-task transfer learning, and satellite imagery analysis (e.g., detection and segmentation).
+My research develops deep learning-based, data-driven and physics-informed modeling frameworks that integrate multimodal Earth observations to predict eco-hydrological extremes (e.g., floods, droughts, wildfires, and landslides) and their cascading effects on energy and infrastructure systems under changing environmental conditions and human influences. These models provide accurate, interpretable, and scalable risk information to support informed decision-making and enhance resilience across scales from local to global.
 
 ## Selected Publications
-- **Liu, J.;** Bian, Y.; Lawson, K.; Shen, C. Probing the Limit of Hydrologic Predictability with the Transformer Network. J. Hydrol. 2024, 637, 131389. [paper](https://doi.org/10.1016/j.jhydrol.2024.131389)
+- **Liu, J.;** Shen, C.; O'Donncha, F.; Song, Y.; Zhi, W.; Beck, H.; Bindas, T.; Kraabel, N.; Lawson, K. From RNNs to Transformers: Benchmarking Deep Learning Architectures for Hydrologic Prediction. Hydrology and Earth System Sciences, 2025, 29, 6811–6832. [paper](https://hess.copernicus.org/articles/29/6811/2025/)
 - **Liu, J.;** Rahmani, F.; Lawson, K.; Shen, C. A Multiscale Deep Learning Model for Soil Moisture Integrating Satellite and in Situ Data. Geophys. Res. Lett. 2022, 49 (7), e2021GL096847. [paper](https://doi.org/10.1029/2021GL096847)
 
 ## 🏆 News
+- [Dec 2025] First-author & corresponding-author paper “[From RNNs to Transformers: benchmarking deep learning architectures for hydrologic prediction](https://hess.copernicus.org/articles/29/6811/2025/)” published in Hydrology and Earth System Sciences (HESS), selected as an Editor’s Highlight article.
 - [Oct 2025] Co-authored paper “[Distinct hydrologic response patterns and trends worldwide revealed by physics-embedded learning](https://doi.org/10.1038/s41467-025-64367-1)” published in *Nature Communications*.
 - [Oct 2025] Invited Guest Editor, Infrastructures (MDPI) – Special Issue: Advances in Geohazards for Infrastructures: Present and Future.
 - [Aug 2025] Successfully defended my Ph.D. dissertation and completed my doctoral degree at The Pennsylvania State University.
