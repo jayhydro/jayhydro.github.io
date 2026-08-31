@@ -1,12 +1,14 @@
 ---
 layout: archive
-title: "Talks and Presentations"
+title: "Selected Talks & Presentations"
 permalink: /talks/
 author_profile: false
 ---
 
+## 2026
 
-## Presentations
+- **Hands-on LSTM and Transformer for Operational Streamflow Prediction.** CIROH Developers Conference, University of Utah (May 2026, Workshop)
+- **Deep Learning and Foundation Models for Hydrology.** Franklin & Marshall College (April 2026, Guest Lecture)
 
 ### 2025
 - Building LSTM and Transformer Models for Hydrologic Prediction. DL4Water Online Workshop (October 2025, Tutorial)
