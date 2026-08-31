@@ -9,7 +9,7 @@ author_profile: false
 All papers are available upon request  
 *\*Indicates co-first authors*
 ## Journal Articles
-1. 1. **Liu, J.**, Shen, C., Yang, Y., Ji, H., Lawson, K., & Kraabel, N. (2026). Geospatial foundation embeddings as transferable catchment descriptors. *Geophysical Research Letters, 53*, e2026GL122814. [https://doi.org/10.1029/2026GL122814](https://doi.org/10.1029/2026GL122814)
+1. **Liu, J.**, Shen, C., Yang, Y., Ji, H., Lawson, K., & Kraabel, N. (2026). Geospatial foundation embeddings as transferable catchment descriptors. *Geophysical Research Letters, 53*, e2026GL122814. [https://doi.org/10.1029/2026GL122814](https://doi.org/10.1029/2026GL122814)
 2. **Liu, J.**, Shen, C., O'Donncha, F., Song, Y., Zhi, W., Beck, H. E., Bindas, T., Kraabel, N., & Lawson, K. (2025). From RNNs to Transformers: Benchmarking deep learning architectures for hydrologic prediction. *Hydrology and Earth System Sciences, 29*, 6811–6828. **Highlight Paper.** [https://doi.org/10.5194/hess-29-6811-2025](https://doi.org/10.5194/hess-29-6811-2025)
 3. Ji, H., Song, Y., Bindas, T., Shen, C., Yang, Y., Pan, M., **Liu, J.**, Rahmani, F., Abbas, A., Beck, H., Lawson, K., & Wada, Y. (2025). Distinct hydrologic response patterns and trends worldwide revealed by physics-embedded learning. *Nature Communications, 16*, 9169. [https://doi.org/10.1038/s41467-025-64367-1](https://doi.org/10.1038/s41467-025-64367-1)
 4. **Liu, J.**, Shen, C., Pei, T., Kifer, D., & Lawson, K. (2025). The value of terrain pattern, high-resolution data and ensemble modeling for landslide susceptibility prediction. *Journal of Geophysical Research: Machine Learning and Computation, 2*(3), e2024JH000460. [https://doi.org/10.1029/2024JH000460](https://doi.org/10.1029/2024JH000460)
