@@ -9,11 +9,14 @@ redirect_from:
 
 My research develops deep learning-based, data-driven and physics-informed modeling frameworks that integrate multimodal Earth observations to predict eco-hydrological extremes (e.g., floods, droughts, wildfires, and landslides) and their cascading effects on energy and infrastructure systems under changing environmental conditions and human influences. These models provide accurate, interpretable, and scalable risk information to support informed decision-making and enhance resilience across scales from local to global.
 
-## Selected Publications
-- **Liu, J.;** Shen, C.; O'Donncha, F.; Song, Y.; Zhi, W.; Beck, H.; Bindas, T.; Kraabel, N.; Lawson, K. From RNNs to Transformers: Benchmarking Deep Learning Architectures for Hydrologic Prediction. Hydrology and Earth System Sciences, 2025, 29, 6811–6832. [paper](https://hess.copernicus.org/articles/29/6811/2025/)
-- **Liu, J.;** Rahmani, F.; Lawson, K.; Shen, C. A Multiscale Deep Learning Model for Soil Moisture Integrating Satellite and in Situ Data. Geophys. Res. Lett. 2022, 49 (7), e2021GL096847. [paper](https://doi.org/10.1029/2021GL096847)
+## 🎓 Prospective Students
+I am recruiting Ph.D. students for **Spring 2027** and **Fall 2027**. Students interested in AI for weather–water prediction, hydrometeorological extremes, multimodal Earth observations, and related areas are encouraged to contact me at [Jiangtao.Liu@ttu.edu](mailto:Jiangtao.Liu@ttu.edu) with a CV and a brief description of their research interests.
 
 ## 🏆 News
+- [Sep 2026] Joined Texas Tech University as an Assistant Professor of Atmospheric Science.
+- [Aug 2026] First-author paper "[Geospatial Foundation Embeddings as Transferable Catchment Descriptors](https://doi.org/10.1029/2026GL122814)" published in *Geophysical Research Letters*.
+- [2026] Serving as Primary Convener of the AGU 2026 session "AI-Driven Hydrologic Modeling and Prediction."
+- [May 2026] Instructor at the CIROH Developers Conference (hands-on LSTM/Transformer workshop).
 - [Dec 2025] First-author & corresponding-author paper “[From RNNs to Transformers: benchmarking deep learning architectures for hydrologic prediction](https://hess.copernicus.org/articles/29/6811/2025/)” published in Hydrology and Earth System Sciences (HESS), selected as an Editor’s Highlight article.
 - [Oct 2025] Co-authored paper “[Distinct hydrologic response patterns and trends worldwide revealed by physics-embedded learning](https://doi.org/10.1038/s41467-025-64367-1)” published in *Nature Communications*.
 - [Oct 2025] Invited Guest Editor, Infrastructures (MDPI) – Special Issue: Advances in Geohazards for Infrastructures: Present and Future.
